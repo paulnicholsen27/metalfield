@@ -1,0 +1,18 @@
+body {
+    font-size: 72px;
+    line-height: 1.5;
+}
+
+.task-container {
+    border: 2px solid red;
+    width: 60%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.task-container > div {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
