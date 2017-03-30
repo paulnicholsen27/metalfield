@@ -1,11 +1,24 @@
-var  x = 2;
+var grade = 95;
+var result;
 
-document.write("x has the value of " + x + "<br/>");
-
-if (x > 3) {
-    document.write("x is bigger than 3");
-} else if (x < 3) {
-    document.write("x is smaller than 3");
-} else {
-    document.write("x is equal to 5.")
+switch (grade) {
+    case "A":
+        result = "Great job";
+        break;
+    case "B":
+        result = "Pretty good!";
+        break;
+    case "C":
+        result = "Could be better!";
+        break;
+    case "D":
+        result = "Pretty bad...";
+        break;
+    case "F":
+        result = "Better study more!";
+        break;
+    default:
+        result = "Invalid grade";
 }
+
+document.write(result);

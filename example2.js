@@ -1,22 +1,14 @@
-var x = 10;
+var myNumber = 27;
+var x = 0;
 
-if (x < 20) {
-    x *= 5;
-} else if (x == 20) {
-    x += 3;
+if (myNumber > 5) {
+    x += 5;
+} else if (myNumber > 10) {
+    x += 10;
+} else if (myNumber > 20) {
+    x += 20;
 } else {
-    x -= 10
+    x += 30;
 }
 
-document.write(x);   // what will the value of x be here?
-document.write("<br/>");
-
-if (x < 30) {
-    x += 5; 
-} else if (x == 30) {
-    x -= 10;
-} else {
-    x = 42;
-}
-
-document.write(x);   // How about here?
+document.write("The final value of x is " + x);
