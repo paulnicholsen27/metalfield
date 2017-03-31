@@ -1,11 +1,11 @@
 var x = 10;
 
-if (x < 20) {
-    x *= 5;
+if (x > 20) {
+    x -= 10;
 } else if (x == 20) {
     x += 3;
 } else {
-    x -= 10
+    x *= 5
 }
 
 document.write(x);   // what will the value of x be here?
